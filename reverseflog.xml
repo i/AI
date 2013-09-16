@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<world xmlns="http://perceptualscience.rutgers.edu/maze" width="400" height="400" cells="1" runnable="false" debug="true" >
+<beam x="0" y="0" />
+<beam x="0" y="1" />
+<pole x="0" y="0" />
+  <state step="0" >
+   <follower id="1" 
+     debug="false" with-extensions="false" 
+    x="0" y="0" heading="WEST" bumped="false" 
+    />
+  </state>
+  <wait time="500"/>
+  <state step="1">
+   <update id="1" 
+    x="0" y="0" heading="NORTH" bumped="false" 
+    />
+  </state>
+  <wait time="500"/>
+  <state step="2">
+   <update id="1" 
+    x="1" y="0" heading="EAST" bumped="false" 
+    />
+  </state>
+  <wait time="500"/>
+</world>
+

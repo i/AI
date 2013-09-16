@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<world xmlns="http://perceptualscience.rutgers.edu/maze"
+   debug="true" logfile="turnflog.xml" replay="500"
+   width="400" height="400" cells="1" time="500">
+<beam x="0" y="0" />
+<pole x="0" y="0" />
+<beam x="0" y="1" />
+<follower x="0" y="0" heading="NORTH" />
+</world>

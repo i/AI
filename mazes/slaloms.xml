@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<world xmlns="http://perceptualscience.rutgers.edu/maze"
+   debug="true" logfile="slalomslog.xml" replay="500"
+   width="400" height="400" cells="3" time="500">
+<beam x="0" y="0" />
+<beam x="1" y="0" />
+<beam x="2" y="0" />
+<pole x="0" y="0" />
+<beam x="0" y="1" />
+<beam x="1" y="1" />
+<pole x="3" y="0" />
+<pole x="3" y="1" />
+<pole x="0" y="1" />
+<pole x="0" y="2" />
+<beam x="2" y="2" />
+<beam x="1" y="2" />
+<beam x="0" y="3" />
+<beam x="1" y="3" />
+<beam x="2" y="3" />
+<stepper x="0" y="0" heading="WEST" />
+</world>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<world xmlns="http://perceptualscience.rutgers.edu/maze"
+   debug="true" logfile="loopstlog.xml" replay="500"
+   width="400" height="400" cells="5" time="500">
+<beam x="0" y="0" />
+<beam x="1" y="0" />
+<beam x="2" y="0" />
+<beam x="3" y="0" />
+<beam x="4" y="0" />
+<pole x="0" y="0" />
+<pole x="0" y="1" />
+<pole x="0" y="3" />
+<pole x="0" y="4" />
+<pole x="5" y="0" />
+<pole x="5" y="1" />
+<pole x="5" y="2" />
+<pole x="5" y="3" />
+<pole x="5" y="4" />
+<beam x="2" y="2" />
+<beam x="2" y="3" />
+<beam x="0" y="5" />
+<beam x="1" y="5" />
+<beam x="2" y="5" />
+<beam x="3" y="5" />
+<beam x="4" y="5" />
+<tryer x="2" y="2" heading="NORTH" /> 
+</world>
